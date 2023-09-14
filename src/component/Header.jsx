@@ -1,40 +1,28 @@
 import "../index.css";
-import { Link } from "react-router-dom"
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 
 
-export default function App() {
+export default function Header() {
     return (
         <div className="App">
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"></link>
-
-            <nav class="navbar navbar-expand-lg navbar-light bg-grey " >
-                <div class="container-fluid">
-                    <Link class="navbar-brand text-white " to="#">JOHN DOE</Link>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse " id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <Link class="nav-link text-white active" aria-current="page" to="/">ACCUEIL</Link>
-                            </li>
-                            <li class="nav-item">
-                                <Link class="nav-link text-white" aria-current="page" to="/services">SERVICES</Link>
-                            </li>
-                            <li class="nav-item">
-                                <Link class="nav-link text-white" aria-current="page" to="/realisation">RÉALISATIONS</Link>
-                            </li>
-                            <li class="nav-item">
-                                <Link class="nav-link text-white" to="/blog">BLOG</Link>
-                            </li>
-                            <li class="nav-item">
-                                <Link class="nav-link text-white" to="/contact">ME CONTACTER</Link>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+            <Navbar fixed="top" expand="lg" className="bg-body-tertiary">
+                <Container >
+                    <Navbar.Brand className="fs-3 text text-white" href="#home">JOHN DOE</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="me-auto offset-4">
+                            <Nav.Link className="fs-5 text me-4 text-white" href="/">ACCUEIL</Nav.Link>
+                            <Nav.Link className="fs-5 text me-4 text-white" href="/services">SERVICES</Nav.Link>
+                            <Nav.Link className="fs-5 text me-4 text-white" href="/realisation">RÉALISATIONS</Nav.Link>
+                            <Nav.Link className="fs-5 text me-4 text-white" href="/blog">BLOG</Nav.Link>
+                            <Nav.Link className="fs-5 text me-4 text-white" href="/contact">ME CONTACTER</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
         </div>
     )
 }
