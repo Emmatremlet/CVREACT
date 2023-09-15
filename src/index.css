@@ -2,10 +2,10 @@
   font-family: "Nunito Sans", sans-serif;
   text-align: center;
   color: #444;
-  background: #eee;
+  background: white;
 }
 
-.navbar{
+.navbar {
   background-color: #1e1E1E;
 }
 
@@ -32,34 +32,36 @@ h1 {
   font-size: 50px;
 }
 
-h2{
+h2 {
   text-align: left;
 }
 
-h3{
+h3 {
   text-align: left;
-  
+
 }
 
-h4{
+h4 {
   text-align: left;
   font-weight: 600px;
   font-size: 18px;
 }
 
-strong{
-  font-size:19px;
+strong {
+  font-size: 19px;
   text-align: left;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
+  text-align: left;
 }
 
-Link{
+Link {
   text-decoration: none;
   color: black;
+  text-align: left;
 }
 
 
@@ -77,10 +79,10 @@ Link{
 }
 
 .a-propos {
-  width:80%;
+  width: 80%;
   padding: 30px;
   margin: 20px;
-  margin-top:40px;
+  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
@@ -91,17 +93,18 @@ Link{
   flex-direction: row;
   justify-content: space-between;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  
+
 }
 
 .description {
-  padding:10px;
-  margin:10px;
-  width:50%;
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
 }
+
 .competences {
-  
-  margin:10px;
+
+  margin: 10px;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -113,32 +116,46 @@ p {
   font-size: 20px;
 }
 
-.competences img{
+.competences img {
   width: auto;
-  height:auto ;
+  height: auto;
   border-radius: 10px;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 hr {
   color: #0d6efd;
-  margin:20px;
+  margin: 20px;
 }
 
-.Footer {
-  order: 4;
+.footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 
-.Footer img {
+.column {
+  background: #EEE;
+  padding : 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.fleche-bleue{
+  max-width: 15px;
+  height: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer img {
   width: 30px;
   margin: 10px;
   opacity: 1;
 }
 
-.Footer img:hover {
+.footer img:hover {
   opacity: 0.5;
 }
 
@@ -154,7 +171,36 @@ hr {
   order: 3;
 }
 
-.copyright{
+.infos {
+  text-align: left;
+}
+
+.link {
+  color: black;
+  text-align: left;
+}
+
+.last-realisations {
+  text-align: left;
+}
+
+.last-realisations Li {
+  margin:0;
+  padding:0;
+}
+
+.last-articles {
+  text-align: left;
+  text-decoration: none;
+  color: black;
+}
+
+.copyright {
   background-color: #1e1E1E;
   color: white;
+  padding-top:20px;
+}
+
+.copyright p {
+  text-align: center;
 }
