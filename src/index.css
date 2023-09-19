@@ -262,3 +262,61 @@ hr {
   text-align: center;
   font-size: 16px;
 }
+
+
+.realisation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  margin: 100px;
+}
+
+
+.bloc-realisation {
+  background-color: white;
+  text-align: center;
+  width: 400px;
+  height: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: solid;
+  border-width: 1px;
+  border-color:rgb(190, 188, 188);
+}
+
+.image-realisation{
+  width: 398px;
+  height:auto;
+  margin-bottom: 20px;
+}
+
+.titre-realisation {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+.details-realisation {
+  text-align: center;
+  font-size: 16px;
+}
+
+.See{
+  color:#0d6efd;
+  border-color: #0d6efd;
+  background-color: white;
+  border-radius: 10px;
+  border-width: 1px;
+  padding : 5px 10px;
+  margin: 10px;
+}
+
+.techno-utilisees{
+  background-color: #EEE;
+  border-top: solid;
+  border-width: 1px;
+  border-color:rgb(190, 188, 188);
+  margin-top:20px;
+  padding: 10px;
+}

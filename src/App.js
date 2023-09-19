@@ -4,7 +4,7 @@ import Home from "./pages/Home.jsx"
 import Services from "./pages/Services.jsx"
 import Contact from "./pages/Contact.jsx"
 import Blog from "./pages/Blog.jsx"
-import MentionsLégales from "./pages/MentionsLégales"
+import MentionsLégales from "./pages/MentionsLegales"
 import Realisation from "./pages/Realisation"
 // import Header from "./component/Header.jsx"
 

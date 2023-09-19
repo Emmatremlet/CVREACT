@@ -5,7 +5,7 @@ import Footer from "../component/Footer.jsx"
 
 
 
-export default function Services() {
+export default function MentionsLegales() {
     return (
         <div className="App">
             <Header></Header>
