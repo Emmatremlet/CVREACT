@@ -295,6 +295,7 @@ hr {
   text-align: center;
   padding-bottom: 20px;
   font-size: 25px;
+  color: black;
 }
 
 .details-realisation {
@@ -314,9 +315,75 @@ hr {
 
 .techno-utilisees{
   background-color: #EEE;
+  width:398px;
   border-top: solid;
   border-width: 1px;
   border-color:rgb(190, 188, 188);
   margin-top:20px;
   padding: 10px;
+}
+
+.blog {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 80px;
+}
+
+
+.bloc-blog {
+  background-color: white;
+  text-align: center;
+  width: 400px;
+  height: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: solid;
+  border-width: 1px;
+  border-color:rgb(190, 188, 188);
+  display : flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.image-blog{
+  width: 398px;
+  height:auto;
+  margin-bottom: 20px;
+}
+
+.titre-blog {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 25px;
+  margin: 20px;
+  color: black;
+}
+
+.details-blog {
+  font-size: 16px;
+  margin: 20px;
+}
+
+.Read{
+  background-color: #0d6efd;
+  color:white;
+  border-radius: 10px;
+  border:none;
+  margin: 20px;
+  padding : 10px 15px;
+}
+
+.date-publication{
+  background-color: #EEE;
+  width:398px;
+  border-top: solid;
+  border-width: 1px;
+  border-color:rgb(190, 188, 188);
+  margin-top:20px;
+  padding: 10px 15px;
+  text-align: left;
 }
