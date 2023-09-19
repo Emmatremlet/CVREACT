@@ -22,7 +22,7 @@ export default function Realisation() {
                 <h1>PORTFOLIO</h1>
                 <p className="intro-services">Voici quelques-unes de mes réalisations.</p>
 
-                <hr className="services" />
+                <hr className="barre" />
             </div>
 
             <div className="realisation">

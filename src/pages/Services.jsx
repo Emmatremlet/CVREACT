@@ -24,7 +24,7 @@ export default function Services() {
                 <h1>MON OFFRE DE SERVICES</h1>
                 <p className="intro-services">Voici les prestations sur lesquelles je peux intervenir.</p>
 
-                <hr className="services" />
+                <hr className="barre" />
             </div>
 
             <div className="service">
