@@ -48,7 +48,7 @@ h4 {
 }
 
 strong {
-  font-size: 19px;
+  /* font-size: 19px; */
   text-align: left;
 }
 
@@ -136,13 +136,13 @@ hr {
 
 .column {
   background: #EEE;
-  padding : 50px;
+  padding: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-.fleche-bleue{
+.fleche-bleue {
   max-width: 15px;
   height: 15px;
   margin: 0;
@@ -185,8 +185,8 @@ hr {
 }
 
 .last-realisations Li {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 .last-articles {
@@ -198,9 +198,67 @@ hr {
 .copyright {
   background-color: #1e1E1E;
   color: white;
-  padding-top:20px;
+  padding-top: 20px;
 }
 
 .copyright p {
   text-align: center;
+}
+
+.laser-bleu {
+  height: auto;
+  width: 100vw;
+}
+
+.intro {
+  margin: 30px;
+}
+
+.intro p{
+  text-align: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  margin: 100px;
+}
+
+.services{
+  margin-top:40px;
+  height: 4px;
+  width: 300px;
+  margin:auto;
+  background-color: #0d6efd;
+  opacity: 1;
+}
+
+.bloc-service {
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 40px;
+  width: 400px;
+  height: 400px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.image-service{
+  width: 50px;
+  height:auto;
+  margin: 40px;
+}
+
+.titre-service {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+.details-services {
+  text-align: center;
+  font-size: 16px;
 }

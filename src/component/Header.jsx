@@ -8,7 +8,8 @@ import Navbar from 'react-bootstrap/Navbar';
 export default function Header() {
     return (
         <div className="App">
-            <Navbar fixed="top" expand="lg" className="bg-body-tertiary">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"></link>
+            <Navbar fixed="top" expand="lg" background="#1e1e1e" className="bg-body-tertiary">
                 <Container >
                     <Navbar.Brand className="fs-3 text text-white" href="#home">JOHN DOE</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
