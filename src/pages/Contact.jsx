@@ -46,7 +46,7 @@ export default function Contact() {
                 </div>
             </form>
 
-            <Footer></Footer>
+            <Footer link="#contact_title"></Footer>
         </div>
     );
 }

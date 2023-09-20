@@ -21,7 +21,7 @@ export default function MentionsLegales() {
             <br />
             
 
-            <h1>MENTIONS LÉGALES</h1>
+            <h1 id="top">MENTIONS LÉGALES</h1>
 
             <hr className="barre"></hr>
 
@@ -66,7 +66,7 @@ export default function MentionsLegales() {
             </Accordion>
 
 
-            <Footer></Footer>
+            <Footer link="#top"></Footer>
         </div>
     )
 }

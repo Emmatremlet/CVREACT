@@ -15,7 +15,7 @@ export default function Realisation() {
     return (
         <div className="App">
             <Header></Header>
-            <div>
+            <div id="header">
                 <img className="laser-bleu" src={lasersBleus} alt="Lasers bleus"></img>
             </div>;
             <div className="intro">
@@ -27,7 +27,7 @@ export default function Realisation() {
 
             <div className="realisation">
 
-                <div className="bloc-realisation">
+                <div className="fresh-food bloc-realisation">
                     <img className="image-realisation" src={imageLegumes} alt="Panier de légumes"></img>
                     <h3 className="titre-realisation">Fresh food</h3>
                     <p className="details-realisation">Réalisation d'un site avec commande en ligne.</p>
@@ -36,7 +36,7 @@ export default function Realisation() {
 
                 </div>
 
-                <div className="bloc-realisation">
+                <div className="resto-akira bloc-realisation">
                     <img className="image-realisation" src={sushi} alt="icones d'ordinateur bleu"></img>
                     <h3 className="titre-realisation">Restaurant Akira</h3>
                     <p className="details-realisation">Réalisation d'un site vitrine.</p>
@@ -44,7 +44,7 @@ export default function Realisation() {
                     <div className="techno-utilisees">Site réalisé avec WordPress</div>
                 </div>
 
-                <div className="bloc-realisation">
+                <div className="bien-etre bloc-realisation">
                     <img className="image-realisation" src={bienEtre} alt="icones d'ordinateur bleu"></img>
                     <h3 className="titre-realisation">Espace bien-être</h3>
                     <p className="details-realisation">Réalisation d'un site vitrine pour un patricien de bien-être.</p>
@@ -53,7 +53,7 @@ export default function Realisation() {
                 </div>
             </div>
 
-            <Footer></Footer>
+            <Footer link="#header"></Footer>
         </div>
     )
 }

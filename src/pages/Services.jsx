@@ -17,7 +17,7 @@ export default function Services() {
     return (
         <div className="App">
             <Header></Header>
-            <div>
+            <div id="header">
                 <img className="laser-bleu" src={lasersBleus} alt="Lasers bleus"></img>
             </div>;
             <div className="intro">
@@ -51,7 +51,7 @@ export default function Services() {
                 </div>
             </div>
 
-            <Footer></Footer>
+            <Footer link="#header"></Footer>
         </div>
     )
 }

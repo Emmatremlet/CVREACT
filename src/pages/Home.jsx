@@ -9,7 +9,7 @@ export default function Home() {
     return (
         <div className="App">
             <Header></Header>
-            <div className="header">
+            <div className="header" id="header">
                 <div className="background"></div>
                 <div className="titre-header">
                     <h1>Bonjour, je suis John Doe</h1>
@@ -20,7 +20,7 @@ export default function Home() {
             <div className="a-propos" id="a-propos">
                 <div className="description">
                     <h2>À propos</h2>
-                    <hr color="#0d6efd" /> <br />
+                    <hr className="barre1" /> <br />
                     <p>Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d'<strong>intégrateur-développeur web</strong> au CEF. Au cours de cette formation, j'ai pu acquérir des bases solides pour travailler dans le domaine du <strong>développement web</strong>. <br /> <br />
                         Basé à Lyon, je suis en recherche d'une alternance au sein d'une agence digitale pour consolider ma formation de <strong>développeur web full stack</strong>. <br /> <br />
                         J'accorde une attention particulière à la qualité du code que j'écris et je respecte les bonnes pratiques du web.</p>
@@ -43,7 +43,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <Footer></Footer>
+            <Footer link="#header"></Footer>
 
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         </div>
