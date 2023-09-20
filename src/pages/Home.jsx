@@ -13,32 +13,32 @@ export default function Home() {
             <div className="header" id="header">
                 <div className="background"></div>
                 <div className="titre-header">
-                    <h1 className="john-doe">Bonjour, je suis John Doe</h1>
+                    <h1 className="john-doe ">Bonjour, je suis John Doe</h1>
                     <h2 className="header-job">Développeur web full stack</h2>
                     <a className="en-savoir-plus" href="#a-propos">En savoir plus</a>
                 </div>
             </div>
-            <div className="a-propos" id="a-propos">
-                <div className="description">
-                    <h2>À propos</h2>
+            <div className="a-propos row justify-content-center " id="a-propos">
+                <div className="description col-10 col-sm-4">
+                    <h2 className="titre-a-propos">À propos</h2>
                     <hr className="barre1" /> <br />
                     <p>Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d'<strong>intégrateur-développeur web</strong> au CEF. Au cours de cette formation, j'ai pu acquérir des bases solides pour travailler dans le domaine du <strong>développement web</strong>. <br /> <br />
                         Basé à Lyon, je suis en recherche d'une alternance au sein d'une agence digitale pour consolider ma formation de <strong>développeur web full stack</strong>. <br /> <br />
                         J'accorde une attention particulière à la qualité du code que j'écris et je respecte les bonnes pratiques du web.</p>
                 </div>
-                <div className="competences">
+                <div className="competences col-10 col-sm-4">
                     <img src={DevWeb} alt="Homme de profil qui travaille"></img>
-                    <h3>Mes compétences</h3> <br />
-                    <div>
-                        <h4> HTML5 90% </h4>
+                    <h3 className="titre-competences">Mes compétences</h3> <br />
+                    <div className="progress-bar">
+                        <h5> HTML5 90% </h5>
                         <ProgressBar variant="danger" now={90} /> <br/>
-                        <h4> CSS3 80% </h4>
+                        <h5> CSS3 80% </h5>
                         <ProgressBar variant="info" now={80} /> <br/>
-                        <h4> JAVASCRIPT 70% </h4>
+                        <h5> JAVASCRIPT 70% </h5>
                         <ProgressBar variant="warning" now={70} /> <br/>
-                        <h4> PHP 60% </h4>
+                        <h5> PHP 60% </h5>
                         <ProgressBar variant="success" now={60} /> <br />
-                        <h4> REACT 50% </h4>
+                        <h5> REACT 50% </h5>
                         <ProgressBar now={50} /> <br/>
                     </div>
                 </div>

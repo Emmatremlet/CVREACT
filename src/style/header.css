@@ -6,7 +6,12 @@
     color: white !important;
 }
 
-.navbar-toggler{
-    border:solid !important;
-    border:white !important;
+.navbar-toggler {
+    border: solid !important;
+    border: white !important;
+}
+
+.navbar-nav {
+    position: relative;
+    left: 130px;
 }

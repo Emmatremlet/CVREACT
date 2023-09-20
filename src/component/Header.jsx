@@ -14,7 +14,7 @@ export default function Header() {
                     <Navbar.Brand className="fs-3 text text-white" href="/">JOHN DOE</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto offset-4">
+                        <Nav className="me-auto">
                             <Nav.Link className="fs-5 text me-4" href="/">ACCUEIL</Nav.Link>
                             <Nav.Link className="fs-5 text me-4" href="/services">SERVICES</Nav.Link>
                             <Nav.Link className="fs-5 text me-4" href="/realisation">RÉALISATIONS</Nav.Link>
