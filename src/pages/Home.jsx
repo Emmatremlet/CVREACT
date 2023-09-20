@@ -2,6 +2,7 @@ import Header from "../component/Header.jsx"
 import DevWeb from "../images/man-597178_1280.jpg"
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import Footer from "../component/Footer.jsx"
+import "../style/home.css"
 
 
 export default function Home() {

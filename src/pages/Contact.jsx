@@ -1,5 +1,6 @@
 import Header from "../component/Header.jsx"
 import Footer from "../component/Footer.jsx"
+import "../style/contact.css"
 
 
 

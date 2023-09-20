@@ -1,0 +1,15 @@
+.icone {
+    width: 24px;
+    height: 24px;
+    margin: 5px 10px;
+  }
+  
+  .contact{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .text-contact{
+    margin:5px 10px;
+  }
+  

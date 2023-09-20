@@ -1,4 +1,4 @@
-import "../index.css";
+import "../style/footer.css";
 import { Link } from "react-router-dom"
 import Github from "../images/github.svg"
 import Twitter from "../images/logo-twitter.png"

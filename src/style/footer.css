@@ -1,0 +1,76 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.column {
+    background: #EEE;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fleche-bleue {
+    max-width: 15px;
+    height: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer img {
+    width: 30px;
+    margin: 10px;
+    opacity: 1;
+}
+
+.footer img:hover {
+    opacity: 0.5;
+}
+
+#linkedin {
+    order: 1;
+}
+
+#twitter {
+    order: 2;
+}
+
+#github {
+    order: 3;
+}
+
+.infos {
+    text-align: left;
+}
+
+.link {
+    color: black;
+    text-align: left;
+}
+
+.last-realisations {
+    text-align: left;
+}
+
+.last-realisations Li {
+    margin: 0;
+    padding: 0;
+}
+
+.last-articles {
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+.copyright {
+    background-color: #1e1E1E;
+    color: white;
+    padding: 20px;
+}
+
+.copyright p {
+    text-align: center;
+}

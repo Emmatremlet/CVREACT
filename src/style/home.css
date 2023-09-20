@@ -1,0 +1,83 @@
+.header {
+    width: auto;
+    height: 800px;
+    background-image: url("../images/software-developer-6521720_1280.jpg");
+}
+
+.background {
+    background-color: black;
+    opacity: 0.3;
+}
+
+.titre-header {
+    padding: 200px;
+    color: white;
+    cursor: default;
+    opacity: 1;
+}
+
+.john-doe {
+    font-size: 70px;
+}
+
+.header-job {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.en-savoir-plus {
+    background-color: #0d6efd;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.a-propos {
+    width: 80%;
+    padding: 70px;
+    margin-top: 60px;
+    margin-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 5px;
+    border: solid;
+    border-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.description {
+    width: 47%;
+}
+
+.barre1 {
+    margin-top: 20px;
+    height: 2px;
+    width: 480px;
+    background-color: #0d6efd;
+    opacity: 1;
+}
+
+.competences {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+p {
+    text-align: left;
+    font-size: 20px;
+}
+
+.competences img {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}

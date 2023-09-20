@@ -1,13 +1,31 @@
-import "../index.css"
+import "../style/realisation.css"
 import Header from "../component/Header.jsx"
 import Footer from "../component/Footer.jsx"
 import lasersBleus from "../images/iStock-180756441.jpg"
 import imageLegumes from "../images/freshfood.jpg"
 import sushi from "../images/sushi.jpg"
 import bienEtre from "../images/bien-être.jpg"
+import Card from "react-bootstrap/Card"
+import Button from 'react-bootstrap/Button';
 
 
-const buttonVoir = <button className="See">Voir</button>;
+
+const styleTitle = {
+    fontSize: "30px",
+    fontFamily: "Nunito Sans Gras",
+    margin: "20px"
+}
+
+const styleBody = {
+    textAlign : "center",
+    fontSize: "medium",
+    fontFamily: "Nunito Sans"
+}
+
+const styleButton = {
+    fontFamily: "Nunito Sans",
+}
+
 
 
 
@@ -25,32 +43,41 @@ export default function Realisation() {
                 <hr className="barre" />
             </div>
 
-            <div className="realisation">
+            <div className="row realisation justify-content-center">
 
-                <div className="fresh-food bloc-realisation">
-                    <img className="image-realisation" src={imageLegumes} alt="Panier de légumes"></img>
-                    <h3 className="titre-realisation">Fresh food</h3>
-                    <p className="details-realisation">Réalisation d'un site avec commande en ligne.</p>
-                    {buttonVoir}
-                    <div className="techno-utilisees">Site réalisé avec PHP et MySQL</div>
-
-                </div>
-
-                <div className="resto-akira bloc-realisation">
-                    <img className="image-realisation" src={sushi} alt="icones d'ordinateur bleu"></img>
-                    <h3 className="titre-realisation">Restaurant Akira</h3>
-                    <p className="details-realisation">Réalisation d'un site vitrine.</p>
-                    {buttonVoir}
-                    <div className="techno-utilisees">Site réalisé avec WordPress</div>
-                </div>
-
-                <div className="bien-etre bloc-realisation">
-                    <img className="image-realisation" src={bienEtre} alt="icones d'ordinateur bleu"></img>
-                    <h3 className="titre-realisation">Espace bien-être</h3>
-                    <p className="details-realisation">Réalisation d'un site vitrine pour un patricien de bien-être.</p>
-                    {buttonVoir}
-                    <div className="techno-utilisees">Site réalisé en HTML/CSS</div>
-                </div>
+                <Card className="col-lg-3 col-md-4 col-6">
+                    <Card.Img variant="top" src={imageLegumes} />
+                    <Card.Body>
+                        <Card.Title style={styleTitle}>Fresh food</Card.Title>
+                        <Card.Text style={styleBody}>
+                            Réalisation d'un site avec commande en ligne.
+                        </Card.Text>
+                        <Button classname="button" style={styleButton} variant="primary">Voir</Button>
+                    </Card.Body>
+                    <Card.Footer className="text-muted card-footer-realisation">Site réalisé avec PHP et MySQL</Card.Footer>
+                </Card>
+                <Card className="col-lg-3 col-md-4 col-6">
+                    <Card.Img variant="top" src={sushi} />
+                    <Card.Body>
+                        <Card.Title style={styleTitle}>Restaurant Akira</Card.Title>
+                        <Card.Text style={styleBody}>
+                            Réalisation d'un site vitrine.
+                        </Card.Text>
+                        <Button classname="button" style={styleButton} variant="primary">Voir</Button>
+                    </Card.Body>
+                    <Card.Footer className="text-muted card-footer-realisation">Site réalisé avec WordPress</Card.Footer>
+                </Card>
+                <Card className="col-lg-3 col-md-4 col-6">
+                    <Card.Img variant="top" src={bienEtre} />
+                    <Card.Body>
+                        <Card.Title style={styleTitle}>Espace bien-être</Card.Title>
+                        <Card.Text style={styleBody}>
+                            Réalisation d'un site vitrine pour un patricien de bien-être.
+                        </Card.Text>
+                        <Button classname="button" style={styleButton} variant="primary">Voir</Button>
+                    </Card.Body>
+                    <Card.Footer className="text-muted card-footer-realisation">Site réalisé en HTML/CSS</Card.Footer>
+                </Card>
             </div>
 
             <Footer link="#header"></Footer>

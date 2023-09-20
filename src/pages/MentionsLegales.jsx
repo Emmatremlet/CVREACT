@@ -1,4 +1,4 @@
-import "../index.css"
+import "../style/mentionslegales.css"
 import Header from "../component/Header.jsx"
 import Footer from "../component/Footer.jsx"
 import Accordion from 'react-bootstrap/Accordion';
