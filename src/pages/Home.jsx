@@ -12,7 +12,7 @@ export default function Home() {
             <div className="header" id="header">
                 <div className="background"></div>
                 <div className="titre-header">
-                    <h1>Bonjour, je suis John Doe</h1>
+                    <h1 className="john-doe">Bonjour, je suis John Doe</h1>
                     <h2 className="header-job">Développeur web full stack</h2>
                     <a className="en-savoir-plus" href="#a-propos">En savoir plus</a>
                 </div>

@@ -33,7 +33,7 @@
 }
 
 .titre-header {
-  padding: 300px;
+  padding: 200px;
   color: white;
   cursor: default;
   opacity: 1;
@@ -80,6 +80,9 @@ Link {
   text-align: left;
 }
 
+.john-doe {
+  font-size: 70px;
+}
 
 .header-job {
   padding-bottom: 20px;
@@ -116,8 +119,8 @@ Link {
   width: 47%;
 }
 
-.barre1{
-  margin-top:20px;
+.barre1 {
+  margin-top: 20px;
   height: 2px;
   width: 480px;
   background-color: #0d6efd;
@@ -234,7 +237,7 @@ hr {
   margin: 30px;
 }
 
-.intro p{
+.intro p {
   text-align: center;
 }
 
@@ -247,11 +250,11 @@ hr {
   margin: 100px;
 }
 
-.barre{
-  margin-top:40px;
+.barre {
+  margin-top: 40px;
   height: 4px;
   width: 300px;
-  margin:auto;
+  margin: auto;
   background-color: #0d6efd;
   opacity: 1;
 }
@@ -266,9 +269,9 @@ hr {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.image-service{
+.image-service {
   width: 50px;
-  height:auto;
+  height: auto;
   margin: 40px;
 }
 
@@ -302,12 +305,12 @@ hr {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border: solid;
   border-width: 1px;
-  border-color:rgb(190, 188, 188);
+  border-color: rgb(190, 188, 188);
 }
 
-.image-realisation{
+.image-realisation {
   width: 398px;
-  height:auto;
+  height: auto;
   margin-bottom: 20px;
 }
 
@@ -323,23 +326,23 @@ hr {
   font-size: 16px;
 }
 
-.See{
-  color:#0d6efd;
+.See {
+  color: #0d6efd;
   border-color: #0d6efd;
   background-color: white;
   border-radius: 10px;
   border-width: 1px;
-  padding : 5px 10px;
+  padding: 5px 10px;
   margin: 10px;
 }
 
-.techno-utilisees{
+.techno-utilisees {
   background-color: #EEE;
-  width:398px;
+  width: 398px;
   border-top: solid;
   border-width: 1px;
-  border-color:rgb(190, 188, 188);
-  margin-top:20px;
+  border-color: rgb(190, 188, 188);
+  margin-top: 20px;
   padding: 10px;
 }
 
@@ -362,16 +365,16 @@ hr {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border: solid;
   border-width: 1px;
-  border-color:rgb(190, 188, 188);
-  display : flex;
+  border-color: rgb(190, 188, 188);
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
 
-.image-blog{
+.image-blog {
   width: 398px;
-  height:auto;
+  height: auto;
   margin-bottom: 20px;
 }
 
@@ -388,34 +391,39 @@ hr {
   margin: 20px;
 }
 
-.Read{
+.Read {
   background-color: #0d6efd;
-  color:white;
+  color: white;
   border-radius: 10px;
-  border:none;
+  border: none;
   margin: 20px;
-  padding : 10px 15px;
+  padding: 10px 15px;
 }
 
-.date-publication{
+.date-publication {
   background-color: #EEE;
-  width:398px;
+  width: 398px;
   border-top: solid;
   border-width: 1px;
-  border-color:rgb(190, 188, 188);
-  margin-top:20px;
+  border-color: rgb(190, 188, 188);
+  margin-top: 20px;
   padding: 10px 15px;
   text-align: left;
 }
 
 
-.icone{
+.icone {
   width: 24px;
-  height: auto;
+  height: 24px;
+  margin: 5px 10px;
 }
 
-Accordion.Body{
+.contact{
   display: flex;
-  flex-direction: column;
-  align-items: left;
+  flex-direction: row;
 }
+
+.text-contact{
+  margin:5px 10px;
+}
+
