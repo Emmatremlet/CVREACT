@@ -1,5 +1,5 @@
 .picture {
-    width: 1600px;
+    width: 1450px;
     height: 1000px;
     padding: 20px 30px;
     background-image: url(../images/contact.jpg);
@@ -8,10 +8,12 @@
 
 
 .div-contact {
+    width:1300px;
     position: relative;
     top: 50px;
-    padding: 10px;
-    padding-bottom: 10px;
+    left:30px;
+    padding: 10px 0;
+    padding-right:40px;
     margin: 20px;
     background-color: white;
     border-radius: 5px;
@@ -63,9 +65,19 @@ textarea {
 }
 
 .contact{
-    margin-top:10px;
+    margin:5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.separation{
-    margin-bottom: 40px;
+.text-contact{
+    width:100%;
+}
+
+
+@media (max-width: 480px){
+    .input{
+        margin-bottom: 50px;
+    }
 }

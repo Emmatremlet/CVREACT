@@ -20,8 +20,8 @@ const styleLink2 = {
 export default function Footer(props) {
     return (
         <div className="footer">
-            <div className="column">
-                <div className="infos">
+            <div className="column row justify-content-center">
+                <div className="infos col-lg-3 col-sm-5 col-10">
                     <h4>John Doe</h4>
                     <p className="adresse-postale">40 rue Laure Diebold <br />
                         69009 Lyon, France <br />
@@ -39,7 +39,7 @@ export default function Footer(props) {
                         </a>
                     </div>
                 </div>
-                <div className="link">
+                <div className="link col-lg-3 col-sm-5 col-10">
                     <h4>Liens utiles</h4>
                     <img src={FlecheBleue} className="fleche-bleue" alt="Flèche bleue"></img>
                     <Link style={styleLink} to="/">Accueil</Link><br />
@@ -52,7 +52,7 @@ export default function Footer(props) {
                     <img src={FlecheBleue} className="fleche-bleue" alt="Flèche bleue"></img>
                     <Link style={styleLink} to="/mentionslegales">Mentions légales</Link><br />
                 </div>
-                <div className="last-realisations">
+                <div className="last-realisations col-lg-3 col-sm-5 col-10">
                     <h4>Mes dernières réalisations</h4>
                     <img src={FlecheBleue} className="fleche-bleue" alt="Flèche bleue"></img>
                     <a style={styleLink} href="/realisation/.fresh-food">Fresh food</a><br />
@@ -61,7 +61,7 @@ export default function Footer(props) {
                     <img src={FlecheBleue} className="fleche-bleue" alt="Flèche bleue"></img>
                     <a style={styleLink} href=".bien-etre">Espace bien-être</a><br />
                 </div>
-                <div className="last-articles">
+                <div className="last-articles col-lg-3 col-sm-5 col-10">
                     <h4>Mes derniers articles</h4>
                     <img src={FlecheBleue} className="fleche-bleue" alt="Flèche bleue"></img>
                     <a style={styleLink} href=".coder-son-site">Coder son site en HTML/CSS</a><br />

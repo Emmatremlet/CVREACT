@@ -6,7 +6,7 @@
 
 .column {
     background: #EEE;
-    padding: 50px;
+    padding: 50px 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
