@@ -13,20 +13,20 @@ export default function Home() {
             <div className="header" id="header">
                 <div className="background"></div>
                 <div className="titre-header">
-                    <h1 className="john-doe ">Bonjour, je suis John Doe</h1>
-                    <h2 className="header-job">Développeur web full stack</h2>
+                    <h1 className="john-doe col-12 col-sm-12">Bonjour, je suis John Doe</h1>
+                    <h2 className="header-job col-12 col-sm-12">Développeur web full stack</h2>
                     <a className="en-savoir-plus" href="#a-propos">En savoir plus</a>
                 </div>
             </div>
-            <div className="a-propos row justify-content-center " id="a-propos">
-                <div className="description col-10 col-sm-4">
+            <div className="a-propos row justify-content-center mx-auto" id="a-propos">
+                <div className="description col-10 col-sm-4 mx-auto">
                     <h2 className="titre-a-propos">À propos</h2>
-                    <hr className="barre1" /> <br />
+                    <hr className="barre1 col-12 col-sm-12" /> <br />
                     <p>Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d'<strong>intégrateur-développeur web</strong> au CEF. Au cours de cette formation, j'ai pu acquérir des bases solides pour travailler dans le domaine du <strong>développement web</strong>. <br /> <br />
                         Basé à Lyon, je suis en recherche d'une alternance au sein d'une agence digitale pour consolider ma formation de <strong>développeur web full stack</strong>. <br /> <br />
                         J'accorde une attention particulière à la qualité du code que j'écris et je respecte les bonnes pratiques du web.</p>
                 </div>
-                <div className="competences col-10 col-sm-4">
+                <div className="competences col-10 col-sm-4 mx-auto">
                     <img src={DevWeb} alt="Homme de profil qui travaille"></img>
                     <h3 className="titre-competences">Mes compétences</h3> <br />
                     <div className="progress-bar">

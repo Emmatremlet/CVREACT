@@ -2,12 +2,14 @@
     width: auto;
     height: 800px;
     background-image: url("../images/software-developer-6521720_1280.jpg");
+    margin-bottom:80px;
 }
 
 .background {
     background-color: black;
     opacity: 0.3;
 }
+
 
 .titre-header {
     padding: 200px;
@@ -27,6 +29,7 @@
 
 .en-savoir-plus {
     background-color: #0d6efd;
+    text-align: center;
     color: white;
     padding: 10px;
     border-radius: 10px;
@@ -36,7 +39,7 @@
 .a-propos {
     width: 80%;
     padding: 70px;
-    margin-top: 60px;
+    margin-top: 100px;
     margin-bottom: 120px;
     margin-left: auto;
     margin-right: auto;
@@ -78,7 +81,7 @@ p {
     margin-bottom: 20px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 900px) {
     .john-doe {
         font-size: 40px;
     }
@@ -88,7 +91,7 @@ p {
     }
 
     .titre-header {
-        padding: 150px 40px;
+        padding: 130px 40px;
     }
 
     .header {
