@@ -17,14 +17,11 @@ const styleTitle = {
 }
 
 const styleBody = {
-    textAlign : "center",
+    textAlign: "center",
     fontSize: "medium",
     fontFamily: "Nunito Sans"
 }
 
-const styleButton = {
-    fontFamily: "Nunito Sans",
-}
 
 
 
@@ -52,7 +49,7 @@ export default function Realisation() {
                         <Card.Text style={styleBody}>
                             Réalisation d'un site avec commande en ligne.
                         </Card.Text>
-                        <Button classname="button" style={styleButton} variant="primary">Voir</Button>
+                        <Button variant="outline-primary">Voir</Button>
                     </Card.Body>
                     <Card.Footer className="text-muted card-footer-realisation">Site réalisé avec PHP et MySQL</Card.Footer>
                 </Card>
@@ -63,7 +60,7 @@ export default function Realisation() {
                         <Card.Text style={styleBody}>
                             Réalisation d'un site vitrine.
                         </Card.Text>
-                        <Button classname="button" style={styleButton} variant="primary">Voir</Button>
+                        <Button variant="outline-primary">Voir</Button>
                     </Card.Body>
                     <Card.Footer className="text-muted card-footer-realisation">Site réalisé avec WordPress</Card.Footer>
                 </Card>
@@ -74,7 +71,7 @@ export default function Realisation() {
                         <Card.Text style={styleBody}>
                             Réalisation d'un site vitrine pour un patricien de bien-être.
                         </Card.Text>
-                        <Button classname="button" style={styleButton} variant="primary">Voir</Button>
+                        <Button classname= "button" variant="outline-primary">Voir</Button>
                     </Card.Body>
                     <Card.Footer className="text-muted card-footer-realisation">Site réalisé en HTML/CSS</Card.Footer>
                 </Card>

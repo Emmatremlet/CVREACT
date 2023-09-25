@@ -2,10 +2,11 @@
     margin: 80px;
 }
 
-.button-blog {
+.btn-primary {
     margin-left: 0 !important;
-    margin-right: 68% !important;
+    margin-right: 220px !important;
 }
+
 
 .card-footer {
     text-align: left !important;

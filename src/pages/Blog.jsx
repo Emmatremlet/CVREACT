@@ -23,10 +23,6 @@ const styleBody = {
     fontFamily : "Nunito Sans"
 }
 
-const styleButton = {
-    textALign: "left",
-    fontFamily: "Nunito Sans"
-}
 
 const styleDate = {
     textALign: "left"
@@ -58,7 +54,7 @@ export default function Blog() {
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                         </Card.Text>
-                        <Button classname="button-blog" style={styleButton} variant="primary">Lire la suite</Button>
+                        <Button  variant="primary">Lire la suite</Button>
                     </Card.Body>
                     <Card.Footer style={styleDate} className="text-muted">Publié le 22 aout 2022</Card.Footer>
                 </Card>
@@ -70,7 +66,7 @@ export default function Blog() {
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                         </Card.Text>
-                        <Button style={styleButton} variant="primary">Lire la suite</Button>
+                        <Button variant="primary">Lire la suite</Button>
                     </Card.Body>
                     <Card.Footer style={styleDate} className="text-muted">Publié le 20 août 2022</Card.Footer>
                 </Card>
@@ -82,7 +78,7 @@ export default function Blog() {
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                         </Card.Text>
-                        <Button style={styleButton} variant="primary">Lire la suite</Button>
+                        <Button variant="primary">Lire la suite</Button>
                     </Card.Body>
                     <Card.Footer style={styleDate} className="text-muted">Publié le 1 août 2022</Card.Footer>
                 </Card>
@@ -94,7 +90,7 @@ export default function Blog() {
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                         </Card.Text>
-                        <Button style={styleButton} variant="primary">Lire la suite</Button>
+                        <Button variant="primary">Lire la suite</Button>
                     </Card.Body>
                     <Card.Footer style={styleDate} className="text-muted">Publié le 31 juillet 2022</Card.Footer>
                 </Card>
@@ -106,7 +102,7 @@ export default function Blog() {
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                         </Card.Text>
-                        <Button style={styleButton} variant="primary">Lire la suite</Button>
+                        <Button variant="primary">Lire la suite</Button>
                     </Card.Body>
                     <Card.Footer style={styleDate} className="text-muted">Publié le 30 juillet 2022</Card.Footer>
                 </Card>
@@ -118,7 +114,7 @@ export default function Blog() {
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                         </Card.Text>
-                        <Button style={styleButton} variant="primary">Lire la suite</Button>
+                        <Button variant="primary">Lire la suite</Button>
                     </Card.Body>
                     <Card.Footer style={styleDate} className="text-muted">Publié le 12 juillet 2022</Card.Footer>
                 </Card>

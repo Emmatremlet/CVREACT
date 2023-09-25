@@ -8,18 +8,18 @@
 
 
 .div-contact {
-    width:1300px;
+    width: 1300px;
     position: relative;
     top: 50px;
-    left:30px;
+    left: 30px;
     padding: 10px 0;
-    padding-right:40px;
+    padding-right: 40px;
     margin: 20px;
     background-color: white;
     border-radius: 5px;
 }
 
-.barre2{
+.barre2 {
     margin: 20px 0;
     height: 2px;
     width: 550px;
@@ -33,20 +33,20 @@ input {
     border-color: grey;
     border-width: 1px;
     padding: 5px 10px;
-    margin:0;
+    margin: 0;
 }
 
 textarea {
     width: 550px;
-    height : 150px;
+    height: 150px;
     border-radius: 5px;
     border-color: grey;
     padding: 5px 10px;
-    margin:0;
+    margin: 0;
 }
 
-.btn{
-    margin:10px;
+.btn {
+    margin: 10px;
 }
 
 .form {
@@ -64,20 +64,27 @@ textarea {
     margin: 5px 10px;
 }
 
-.contact{
-    margin:5px;
+.contact {
+    margin: 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.text-contact{
-    width:100%;
+.text-contact {
+    width: 100%;
 }
 
+.submit-button{
+    height:40px;
+    background-color: #0d6efd;
+    color: white;
+    border:none;
+    border-radius: 5px;
+}
 
-@media (max-width: 480px){
-    .input{
-        margin-bottom: 50px;
+@media (max-width: 900px) {
+    .picture {
+        height: 1550px;
     }
 }
