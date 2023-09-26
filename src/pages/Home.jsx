@@ -2,7 +2,6 @@ import Header from "../component/Header.jsx"
 import DevWeb from "../images/man-597178_1280.jpg"
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import Footer from "../component/Footer.jsx"
-import chatGeek from "../images/chatgeek.jpg"
 import React, { useState, useEffect } from 'react'
 import "../style/home.css"
 
